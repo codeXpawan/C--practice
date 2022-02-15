@@ -30,6 +30,7 @@ class Vehicle{
 int main(){
 	Vehicle v;
 	Vehicle c(&v);
-	c.total_charge();
+	Vehicle c1 = v;
+	c1.total_charge();
 	return 0;
 }
